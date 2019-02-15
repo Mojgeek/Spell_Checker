@@ -1,5 +1,7 @@
 DICTIONARY README
 
+
+
 Design and implement a program to spell-check a text document using a given dictionary.
 
 REQUIREMENTS
@@ -20,7 +22,7 @@ A linked list test application is provided.  Before beginning to work on the spe
 
 A SPELL_CHECK main application is provided.  The function names and behavior in the Spell class should be designed and implemented so that the SPELL_CHECK's main application works correctly.
 
-The data structure and spell-check application should be independent.  We will likely realize that a linked list’s  performance is too slow and consider alternative data structures.
+The data structure and spell-check application should be independent.  We will likely realize that a linked listï¿½s  performance is too slow and consider alternative data structures.
 
 string, list, vector or similar includes are not permitted. 
 
@@ -34,4 +36,4 @@ The getSizeOfDoc function returns the number of words in the document to be chec
 
 The checkDoc function reads the file to be checked, checks each word against the data structure in memory, and outputs to screen a list of incorrectly spelled words.  A searchDict function may be useful here.
 
-An unload function is probably not necessary because list-node-deallocation will likely be handled in the data structure class’s destructor.
+An unload function is probably not necessary because list-node-deallocation will likely be handled in the data structure classï¿½s destructor.
