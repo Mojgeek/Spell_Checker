@@ -16,13 +16,9 @@
 * Trailing and leading punctuation should not be considered incorrect.  !computer and "computer" should be treated as correct, but comp.uter should not be treated as correct.
 
 * When the program starts, the dictionary file should be read into a data structure.  This will initially be a linked list.  A linked list header file is provided.  The linked list implementation should conform to the declarations in the header.
-
-## Case One (To be updated)
-*A linked list test application is provided.  Before beginning to work on the spell-checker, the linked list data structure should be implemented and the test application should execute correctly.
-
 A SPELL_CHECK main application is provided.  The function names and behavior in the Spell class should be designed and implemented so that the SPELL_CHECK's main application works correctly.
 
-The data structure and spell-check application should be independent.  We will likely realize that a linked list's  performance is too slow and consider alternative data structures.
+* The data structure and spell-check application should be independent.  We will likely realize that a linked list's  performance is too slow and consider alternative data structures.
 
 1.string, list, vector or similar includes are not permitted. 
 
@@ -34,7 +30,12 @@ The data structure and spell-check application should be independent.  We will l
 
 5.The getSizeOfDoc function returns the number of words in the document to be check.
 
-The checkDoc function reads the file to be checked, checks each word against the data structure in memory, and outputs to screen a list of incorrectly spelled words.  A searchDict function may be useful here.
+* The checkDoc function reads the file to be checked, checks each word against the data structure in memory, and outputs to screen a list of incorrectly spelled words.  A searchDict function may be useful here.
 
-An unload function is probably not necessary because list-node-deallocation will likely be handled in the data structure class's destructor.
+* An unload function is probably not necessary because list-node-deallocation will likely be handled in the data structure class's destructor.
+
+
+## Case One (To be updated)
+*A linked list test application is provided.  Before beginning to work on the spell-checker, the linked list data structure should be implemented and the test application should execute correctly*
+
 
