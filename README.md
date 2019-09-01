@@ -5,19 +5,19 @@
 
 # REQUIREMENTS
 
-..*The program will take the name of the dictionary.txt file and the text.txt file to be spell-checked as command line arguments.  You can assume the dictionary file will be formatted as plain text with one word per line.
+..* The program will take the name of the dictionary.txt file and the text.txt file to be spell-checked as command line arguments.  You can assume the dictionary file will be formatted as plain text with one word per line.
 
-..*The program will output to screen a list of the incorrectly spelled words.
+..* The program will output to screen a list of the incorrectly spelled words.
 
-..*Unusual apitalizations should not be considered incorrect.  Computer, coMpuTer, computeR, computer, and COMPUTER should be treated as correct.
+..* Unusual apitalizations should not be considered incorrect.  Computer, coMpuTer, computeR, computer, and COMPUTER should be treated as correct.
 
-..*Numbers adjacent to words should not be considered incorrect.  Computer, 32computer, and computer54 should be treated as correct.
+..* Numbers adjacent to words should not be considered incorrect.  Computer, 32computer, and computer54 should be treated as correct.
 
-..*Trailing and leading punctuation should not be considered incorrect.  !computer and "computer" should be treated as correct, but comp.uter should not be treated as correct.
+..* Trailing and leading punctuation should not be considered incorrect.  !computer and "computer" should be treated as correct, but comp.uter should not be treated as correct.
 
-..*When the program starts, the dictionary file should be read into a data structure.  This will initially be a linked list.  A linked list header file is provided.  The linked list implementation should conform to the declarations in the header.
+..* When the program starts, the dictionary file should be read into a data structure.  This will initially be a linked list.  A linked list header file is provided.  The linked list implementation should conform to the declarations in the header.
 
-## case1 (To be updated)
+## Case One (To be updated)
 *A linked list test application is provided.  Before beginning to work on the spell-checker, the linked list data structure should be implemented and the test application should execute correctly.
 
 A SPELL_CHECK main application is provided.  The function names and behavior in the Spell class should be designed and implemented so that the SPELL_CHECK's main application works correctly.
