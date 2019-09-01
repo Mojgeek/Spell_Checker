@@ -1,5 +1,5 @@
 # Spell_Checker
-## Author :Mojgan Mehrabi
+### Author: Mojgan Mehrabi
 ### Design and implement a program to spell-check a text document using a given dictionary
 
 
@@ -18,7 +18,7 @@
 ..*When the program starts, the dictionary file should be read into a data structure.  This will initially be a linked list.  A linked list header file is provided.  The linked list implementation should conform to the declarations in the header.
 
 ## case1 (To be updated)
-...A linked list test application is provided.  Before beginning to work on the spell-checker, the linked list data structure should be implemented and the test application should execute correctly.
+*A linked list test application is provided.  Before beginning to work on the spell-checker, the linked list data structure should be implemented and the test application should execute correctly.
 
 A SPELL_CHECK main application is provided.  The function names and behavior in the Spell class should be designed and implemented so that the SPELL_CHECK's main application works correctly.
 
