@@ -1,9 +1,10 @@
 # Spell_Checker
-#Author
+**Author**
 Mojgan Mehrabi
-Design and implement a program to spell-check a text document using a given dictionary.
+**Design and implement a program to spell-check a text document using a given dictionary**
 
-#REQUIREMENTS
+
+# REQUIREMENTS
 
 The program will take the name of the dictionary.txt file and the text.txt file to be spell-checked as command line arguments.  You can assume the dictionary file will be formatted as plain text with one word per line.
 
