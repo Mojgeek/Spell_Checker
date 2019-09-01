@@ -1,5 +1,5 @@
 # Spell_Checker
-**Author**
+## Author
 Mojgan Mehrabi
 **Design and implement a program to spell-check a text document using a given dictionary**
 
@@ -24,15 +24,15 @@ A SPELL_CHECK main application is provided.  The function names and behavior in 
 
 The data structure and spell-check application should be independent.  We will likely realize that a linked list's  performance is too slow and consider alternative data structures.
 
-string, list, vector or similar includes are not permitted. 
+1.string, list, vector or similar includes are not permitted. 
 
-The spell-check application should have at least the following functions:
+2.The spell-check application should have at least the following functions:
 
-The loadDict function executes at the start of the program to read the dictionary file into a data structure in memory.
+3.The loadDict function executes at the start of the program to read the dictionary file into a data structure in memory.
 
-The getSizeOfDict function returns the number of words in the dictionary.
+4. The getSizeOfDict function returns the number of words in the dictionary.
 
-The getSizeOfDoc function returns the number of words in the document to be check.
+5. The getSizeOfDoc function returns the number of words in the document to be check.
 
 The checkDoc function reads the file to be checked, checks each word against the data structure in memory, and outputs to screen a list of incorrectly spelled words.  A searchDict function may be useful here.
 
